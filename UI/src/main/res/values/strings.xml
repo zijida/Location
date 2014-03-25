@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Location</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">绑定服务</string>
+    <string name="action_unset">解绑服务</string>
+    <string name="geo_no_result">未知区域</string>
+    <string name="geo_no_data">您的位置超出中华人民共和国国土范围</string>
+    <string name="geo_ret_22">连接异常</string>
+    <string name="geo_ret_23">连接超时</string>
+    <string name="geo_ret_24">参数无效</string>
+    <string name="geo_ret_25">空指针</string>
+    <string name="geo_ret_26">URL不正确</string>
+    <string name="geo_ret_27">未知主机</string>
+    <string name="geo_ret_28">服务器不能连接</string>
+    <string name="geo_ret_29">协议解析错</string>
+    <string name="geo_ret_30">HTTP连接错</string>
+    <string name="geo_ret_32">鉴权失败</string>
+    <string name="geo_ret_default">未知错误</string>
+    <string name="ACTION_BROADCAST">com.zijida.location.service.BROADCAST</string>
+
+</resources>

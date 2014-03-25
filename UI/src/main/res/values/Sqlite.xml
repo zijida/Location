@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_table_xingcheng">
+    CREATE TABLE IF NOT EXISTS xingcheng (
+        time DATETIME PRIMARY KEY
+                  NOT NULL
+                  UNIQUE,
+        file TEXT NOT NULL,
+        name TEXT
+    );
+    </string>
+
+    <string name="drop_table_xingcheng">
+        drop table if exists xingcheng;
+    </string>
+
+    <string name="create_table_dbfile">
+     CREATE TABLE filename (
+        time DATETIME PRIMARY KEY
+                    NOT NULL
+                    UNIQUE,
+        lat  INT   NOT NULL,
+        lon  INT   NOT NULL,
+        speed INT
+    );
+    </string>
+
+    <string name="insert_table_xingcheng">
+    INSERT INTO xingcheng(time,file,name)
+    VALUES (datetime(),?,?);
+    </string>
+
+    <string name="insert_table_dbfile">
+    INSERT INTO filename(time,lat,lon,speed)
+    VALUES (datetime(),?,?,?);
+    </string>
+
+    <string name="select_from_table_xingcheng">
+        SELECT * FROM xingcheng;
+    </string>
+</resources>

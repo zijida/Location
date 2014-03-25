@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Android_Location_V1.0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/UI/libs/Android_Location_V1.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
